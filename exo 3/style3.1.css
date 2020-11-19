@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    width: 100%;
+}
+
+#container {
+    background-color: dimgray;
+    width: 90%;
+    height: 90vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    align-content: space-evenly;
+}
+
+.enfant1 {
+    width: 20vw;
+    height: 40vh;
+    background-color: #1ABC9C;
+}
+
+.enfant2 {
+    width: 20vw;
+    height: 40vh;
+    background-color: #3498DB;
+}
